@@ -24,7 +24,7 @@ Meteor.startup(function() {
     "service": "google",
     "clientId": "755514649356-rlho8fe6gj77vf029gg4b48f6adbcgim.apps.googleusercontent.com",
     "client_email": "755514649356-rlho8fe6gj77vf029gg4b48f6adbcgim@developer.gserviceaccount.com",
-    "secret": "ymgZFtEve4OeYLRe8QhF3gIT"
+    "secret": "hdU6i3pW63nKx6IlkeytpOaW"
   });
 
   // Add Facebook configuration entry
