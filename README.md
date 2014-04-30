@@ -1,4 +1,4 @@
-test-accounts-templates-foundation
-==================================
+Meteor test application for package `accounts-templates-bootstrap`
+==================================================================
 
-demo application for accounts-templates-foundation
+Warning WIP!!!
