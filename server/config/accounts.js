@@ -17,16 +17,16 @@ Meteor.startup(function() {
   // Add Facebook configuration entry
   ServiceConfiguration.configurations.insert({
     "service": "facebook",
-    "appId": "512068832232435",
-    "secret": "ada85e91fd1ad2e60d0d25923eacd123"
+    "appId": "1478530982376469",
+    "secret": "baab3cb282df3b974ace7252a6abe76b"
   });
 
   // Add Google configuration entry
   ServiceConfiguration.configurations.insert({
     "service": "google",
-    "clientId": "755514649356-f3b1l6u4a7tvn31eenomth890gvqaq4p.apps.googleusercontent.com",
-    "client_email": "755514649356-f3b1l6u4a7tvn31eenomth890gvqaq4p@developer.gserviceaccount.com",
-    "secret": "ymgZFtEve4OeYLRe8QhF3gIT"
+    "clientId": "755514649356-rlho8fe6gj77vf029gg4b48f6adbcgim.apps.googleusercontent.com",
+    "client_email": "755514649356-rlho8fe6gj77vf029gg4b48f6adbcgim@developer.gserviceaccount.com",
+    "secret": "hdU6i3pW63nKx6IlkeytpOaW"
   });
 
   // Add Facebook configuration entry
