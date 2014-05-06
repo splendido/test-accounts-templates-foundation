@@ -1,0 +1,22 @@
+<template name="profile">
+ <div class="row">
+    <div class="small-12 medium-10 large-10 medium-centered large-centered columns">
+      <h4>User vCard (might be blank when logged in with a social account...)</h4>
+      {{#if currentUser}}
+        <ul class="vcard">
+          {{#if name}}
+            <li class="fn">{{name}}</li>
+          {{/if}}
+          {{#if email}}
+            <li class="email"><a href="#">{{email}}</a></li>
+          {{/if}}
+          {{#if phone}}
+            <li class="phone"><abbr title="Phone">P:</abbr> {{phone}}</li>
+          {{/if}}
+        </ul>
+      {{else}}
+        <p>Not logged-in!</p>
+      {{/if}}
+    </div>
+  </div>
+</template>
