@@ -2,34 +2,18 @@
   <div>
     <h2>Lets play with the configuration options!</h2>
     <div  data-alert class="alert-box warning">
-      Note: only for this demo, I've allowed clien-side update of the configuration object!
+    Note: here I'm playing with UI.render and UI.insert to update the signinForm template when configuration options are modified. Acually there is no reactivity involved and the server-side configuration object remains unchanged!
     </div>
     <form role="form" class="panel callout radius">
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" id="showPlaceholders" value="" checked="{{#if showPlaceholders}}true{{/if}}">
-          Show Placeholders
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" id="displayFormLabels" value="" checked="{{#if displayFormLabels}}true{{/if}}">
-          Display Form Labels
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" id="continuousValidation" value="" checked="{{#if continuousValidation}}true{{/if}}">
-          Continuous Validation
-        </label>
-      </div>
+      {{#each options}}
+        {{> option}}
+      {{/each}}
     </form>
     <div data-alert class="alert-box secondary">
       Note: having feedback without labels shows some problems with icon vertical alignment (seems a bug in v3.1, see
       <a href="https://github.com/twbs/bootstrap/issues/12873">here</a>)
     </div>
   </div>
-
   {{#if signup}}
     <div data-alert class="alert-box success">
       Sign-up fiels can be easily customized with just a few lines: lets have a look at the 
@@ -48,4 +32,13 @@
       </div>
     </div>
   {{/if}}
+</template>
+
+<template name="option">
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" id="option-{{this}}" value="" checked="{{checked}}">
+      {{this}}
+    </label>
+  </div>
 </template>

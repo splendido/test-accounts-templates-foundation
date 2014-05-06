@@ -2,10 +2,7 @@
   "packages": {
     "iron-router": {},
     "less-fontawesome-4": {},
-    "accounts-templates-foundation": {
-      "_path": "/home/idel/Projects/AccountsTemplates/accounts-templates-foundation",
-      "git": "https://github.com/splendido/accounts-templates-foundation.git"
-    },
+    "accounts-templates-foundation": "0.0.1",
     "accounts-linkedin": {
       "git": "https://github.com/splendido/meteor-accounts-linkedin.git"
     },

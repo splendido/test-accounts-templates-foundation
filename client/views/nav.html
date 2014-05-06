@@ -15,11 +15,22 @@
           <li><a href="https://github.com/splendido/test-accounts-templates-foundation">GitHub</a></li>
           <li class="divider"></li>
           <li><a href="https://atmospherejs.com/package/accounts-templates-foundation">Atmosphere</a></li>
+          <li class="has-dropdown">
+            <a href="#"> {{currLang}} </a>
+            <ul class="dropdown">
+              {{#each languages}}
+                <li><a class="setlang" id="lang-{{this}}" href="#">{{uppercase this}}</a></li>
+              {{/each}}
+            </ul>
+          </li>
         </ul>
         <!-- Left Nav Section -->
         <ul class="left">
           <li><a href="/">Home</a></li>
           <li><a href="/full">Full Page</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/profile">Profile</a></li>
+          <li><a href="/loginNeeded">Private Stuff</a></li>
         </ul>
       </section>
     </nav>
