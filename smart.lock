@@ -5,7 +5,7 @@
       "iron-router": {},
       "less-fontawesome-4": {},
       "accounts-templates-foundation": {
-        "path": "../accounts-templates-foundation"
+        "version": "0.0.1"
       },
       "accounts-linkedin": {
         "git": "https://github.com/splendido/meteor-accounts-linkedin.git",
@@ -25,7 +25,9 @@
         "commit": "f40d8d5e0794325aedddd4aeedd1e9cfb47ca133"
       },
       "accounts-templates-foundation": {
-        "path": "../accounts-templates-foundation"
+        "git": "https://github.com/splendido/accounts-templates-foundation.git",
+        "tag": "v0.0.1",
+        "commit": "1e5387508d6e1fec029a437f1acfff8b031c924b"
       },
       "accounts-linkedin": {
         "git": "https://github.com/splendido/meteor-accounts-linkedin.git",
