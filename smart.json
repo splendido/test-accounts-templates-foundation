@@ -2,7 +2,7 @@
   "packages": {
     "iron-router": {},
     "less-fontawesome-4": {},
-    "accounts-templates-foundation": "0.0.3",
+    "accounts-templates-foundation": "0.0.4",
     "accounts-linkedin": {
       "git": "https://github.com/splendido/meteor-accounts-linkedin.git"
     },
