@@ -5,12 +5,9 @@
       "iron-router": {},
       "less-fontawesome-4": {},
       "accounts-templates-foundation": {
-        "version": "0.0.3"
+        "version": "0.0.5"
       },
-      "accounts-linkedin": {
-        "git": "https://github.com/splendido/meteor-accounts-linkedin.git",
-        "branch": "master"
-      },
+      "accounts-linkedin": {},
       "zurb-foundation": {}
     },
     "packages": {
@@ -26,13 +23,13 @@
       },
       "accounts-templates-foundation": {
         "git": "https://github.com/splendido/accounts-templates-foundation.git",
-        "tag": "v0.0.3",
-        "commit": "c9e2dc71a2e9bd3d4fe95fd33d1be7da24e6cd32"
+        "tag": "v0.0.5",
+        "commit": "b92e18b3d2c289c4f2f38ff662642dce78e07b79"
       },
       "accounts-linkedin": {
-        "git": "https://github.com/splendido/meteor-accounts-linkedin.git",
-        "branch": "master",
-        "commit": "dd134ff90a8f4afd37bdc83f3df00d3ae28669d6"
+        "git": "https://github.com/yefim/meteor-accounts-linkedin.git",
+        "tag": "v0.0.6",
+        "commit": "58ae8fc9da845c2eabcacc5cc6a238af6189d19d"
       },
       "zurb-foundation": {
         "git": "https://github.com/MixinLabs/meteor-foundation.git",
@@ -46,18 +43,23 @@
       },
       "accounts-templates-core": {
         "git": "https://github.com/splendido/accounts-templates-core.git",
-        "tag": "v0.0.4",
-        "commit": "613be513f6c77c0bbcceaef0f7b8d472e06e4145"
+        "tag": "v0.0.6",
+        "commit": "eb0d9133dae2920e84b779979a26b1133f969793"
       },
       "linkedin": {
         "git": "https://github.com/yefim/meteor-linkedin.git",
         "tag": "v0.0.2",
         "commit": "c3bac682ea0edd19e58b9172e708f91616888ba0"
       },
+      "accounts-merge": {
+        "git": "https://github.com/lirbank/meteor-accounts-merge.git",
+        "tag": "v0.0.3",
+        "commit": "60866e38f69ea7d06f4cd24b2618b2677bb2ceba"
+      },
       "accounts-t9n": {
         "git": "https://github.com/splendido/meteor-accounts-t9n.git",
         "branch": "master",
-        "commit": "1d3f63b64c529746c06b0a790874af2d4e7f21ba"
+        "commit": "8e6c9de02ed12d71fa2dcd79d59bc7952cb22097"
       }
     }
   }
