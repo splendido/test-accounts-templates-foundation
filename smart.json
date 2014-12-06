@@ -1,7 +1,8 @@
 {
   "packages": {
     "less-fontawesome-4": {},
-    "accounts-templates-foundation": "0.0.20",
+    "accounts-templates-foundation": {
+    },
     "accounts-linkedin": {},
     "zurb-foundation": {}
   }
